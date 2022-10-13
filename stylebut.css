@@ -1,0 +1,22 @@
+.but{
+	background-image: url("аяно.ico");
+	width: 150px;
+	height: 250px;
+}
+.but:hover{
+	border: gold;
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-delay: 0s;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+body{
+	background: linear-gradient(160deg, #FFD700, #00FF00);
+}

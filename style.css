@@ -1,0 +1,18 @@
+.beb{
+	color: darkred;
+	text-align: center;
+	border: 1px solid blue;
+	font-family: monospace;
+	font-size: 70px;
+}
+body{
+	background: linear-gradient(260deg, #F08080, #00BFFF);
+}
+.ra:hover{
+	color: rgb(255, 255, 150);
+	background: gold;
+}
+.center{
+	align-items: center;
+	text-align: center;
+}
